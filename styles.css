@@ -12,8 +12,8 @@
 }
 @media screen and (max-width: 500px){
     .col{
-        width: 5em;
-        height: 5em;
+        width: 10em;
+        height: 10em;
         margin: 1em;
     }
 }
@@ -44,4 +44,14 @@
         height: 25em;
         margin: 5em;
     }
+}
+.circle{
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 1em;
+}
+.outer-circle{
+    border: 2px solid black;
+    border-radius: 100px;
+    padding: 1.5em;
 }
