@@ -1,7 +1,11 @@
-
+.row, .h2{
+    display: flex;
+    justify-content: center;
+}
 .col-one, .col-two{
     width: 25em;
     height: 25em;
     border: black solid 2px;
     border-radius: 15px;
+    flex-direction: column;   
 }
