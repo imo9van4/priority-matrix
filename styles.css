@@ -5,7 +5,10 @@
 .col-one, .col-two{
     border: black solid 2px;
     border-radius: 15px;
-    flex-direction: column;   
+    flex-direction: column; 
+    display: flex;  
+    justify-content: center;
+    align-items: center;
 }
 @media screen and (max-width: 500px){
     .col{
